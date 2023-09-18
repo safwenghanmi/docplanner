@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu&family=Work+Sans:wght@300&display=swap');
+*{
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.log1{
+    width: 300px;
+    height: auto;
+
+}
+a{
+    text-decoration: none;
+    color: #ababab;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ;
+    margin: 0 20px;
+    padding: 20px;
+    position:fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin-right: 30px;
+}
+header ul li a:hover,.active{
+    text-decoration: none;
+    color:#00b39b;
+
+
+}
+.dropdown {
+    position: relative;
+    display: inline;
+    background-color: white;
+  }
+  .dropdown a{
+    width: 100%;
+    padding: 30px 0px;
+  }
+  /* Style the dropdown content (hidden by default) */
+  .dropdown-content {
+    color: #333;
+    display:none;
+    position: absolute;
+    background-color:white;
+    z-index: 1;
+    box-sizing: content-box;
+    padding-right: 60px;
+  
+
+  }
+  
+  /* Style the dropdown links */
+  .dropdown-content li {
+    padding: 12px;
+    justify-content: center;
+  }
+  
+  .dropdown-content a {
+    color:#333;
+    text-decoration: none;
+  }
+  
+  /* Show the dropdown content when hovering over the dropdown */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  body{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+
+  }
+  .log2{
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: auto;
+  }
+  h1{
+    text-align: center;
+    color: #00b39b;
+    margin: 1em 0;
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-family: work sans,arial,sans-serif;
+  }
+
+  .grid-container h2 {
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+  }
+  
+.grid{
+  margin: 50px 250px;
+  padding: 10PX 10PX;
+  display:grid;
+  grid-template-columns:auto auto;
+  gap: 0 40px ;
+  justify-content: space-around;
+  
+  
+}
+  p{
+    display: block;
+    box-sizing: inherit;
+    margin: 0.8em 0;
+    line-height: 1.75;
+    font-weight: 400;
+    
+  }
+  .grid p:hover{
+    background-color: #00b39b;
+  }
+
+  .div{
+    margin: 0 60px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:400px;
+    gap: 20px;
+    margin: 0 200PX;
+    padding: 0 30PX;
+}
+
+.grid-container h1{
+  font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  margin: 0.3em 0;
+}
+
+
+.choi1{
+  padding: 40px;
+  background-color:#00b39b;
+  border-radius: 10px;
+  color: white;
+}
+
+
+.choi2{
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #3d83df;
+  color: white;
+}
+.choi3{
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #1b2734;
+  color: white;
+}
+.groupes{
+  color: white;
+  width: 40px;
+  height: auto;
+}
+.person{
+  color:white;
+  width: 40px;
+  height: auto;
+}
+.clinic{
+  color: white;
+  width: 40px;
+  height: auto;
+}
+.choi1 h2,.choi2 h2,.choi3 h2 {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.grid-container,.choose-country1{
+  text-decoration: solid;
+  background-color: transparent;
+  :white;
+  margin-top: 80px;
+}
+.choose-country1 ul li a{
+  background-color:transparent;
+  margin: 10px 20px;
+}
+
+.grid2{
+  margin-left: 40%;
+  margin-top: 0;
+  height: 80PX;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+grid-template-rows: auto auto;
+align-items: center;
+  }
+.grid2 img{
+  width: 150px;
+  height: auto;
+}
+.company{
+  text-align:left;
+    color: #00b39b;
+    margin-right:20px;
+    padding-right:200px;
+    font-size: 2.125rem;
+    font-weight: 300;
+    letter-spacing: -.3px;
+    font-family:arial,sans-serif;
+
+}
+.parent{
+  width: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+
+    
+
+  
+  
